@@ -1,4 +1,4 @@
-FROM php:7.2.0-fpm
+FROM php:7.4.19-fpm
 
 RUN apt-get update && apt-get install zlib1g-dev -y \
             libmcrypt-dev \
